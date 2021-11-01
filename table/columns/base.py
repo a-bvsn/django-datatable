@@ -12,7 +12,7 @@ class Column(object):
     instance_order = 0
 
     def __init__(self, field=None, header=None, attrs=None, header_attrs=None,
-                 header_row_order=0, sortable=True, searchable=True, safe=False,
+                 header_row_order=0, sortable=True, searchable=True, safe=True,
                  visible=True, space=True):
         self.field = field
         self.attrs = attrs or {}

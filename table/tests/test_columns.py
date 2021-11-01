@@ -21,7 +21,7 @@ class BaseColumntestCase(TestCase):
 
         self.assertTrue(column.sortable, True)
         self.assertTrue(column.searchable, True)
-        self.assertTrue(column.safe, False)
+        self.assertTrue(column.safe, True)
         self.assertTrue(column.visible, True)
         self.assertTrue(column.space, True)
 
